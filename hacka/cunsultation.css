@@ -2,11 +2,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9; /* Light background for better visibility */
+    background-color: #f9f9f9; 
 }
 
 header {
-    background-color: #4CAF50; /* Green background */
+    background-color: #4CAF50;
     color: white;
     padding: 10px 0;
     text-align: center;
@@ -23,42 +23,42 @@ nav a:hover {
 }
 
 .consultation-section {
-    max-width: 1200px; /* Max width for content */
+    max-width: 1200px; 
     margin: 20px auto;
     padding: 20px;
-    background-color: #fff; /* White background for the section */
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-    text-align: center; /* Center-align the text */
+    background-color: #fff; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+    text-align: center; 
 }
 
 .upsec {
-    margin-bottom: 20px; /* Space between the upsec and doctor list */
+    margin-bottom: 20px; 
 }
 
 .doctor-list {
-    display: grid; /* Use grid for layout */
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive columns */
-    gap: 20px; /* Space between items */
-    justify-items: center; /* Center items in each grid cell */
+    display: grid; 
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+    gap: 20px; 
+    justify-items: center; 
 }
 
 .doctor {
-    background-color: #e0f7fa; /* Light blue background */
-    border-radius: 8px; /* Rounded corners */
+    background-color: #e0f7fa; 
+    border-radius: 8px; 
     padding: 15px;
     text-align: center;
-    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
 }
 
 .doctor img {
-    width: 100%; /* Responsive image */
-    border-radius: 50%; /* Circular image */
-    height: auto; /* Maintain aspect ratio */
+    width: 100%; 
+    border-radius: 50%;
+    height: auto;
 }
 
 h2, h3, p {
-    margin: 10px 0; /* Add margin for spacing */
+    margin: 10px 0; 
 }
 
 footer {
