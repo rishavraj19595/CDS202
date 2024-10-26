@@ -135,7 +135,7 @@ footer {
 .explore {
     text-align: center;
     padding: 20px;
-    background-color: #f4f4f4; /* Light background color */
+    background-color: #f4f4f4;
     width: 100%;
 }
 
@@ -158,17 +158,9 @@ footer {
     border-radius: 10px;
 }
 
-/* .explore-icon img:hover{
-    transform: scale(1.05);
-} */
-
-
-
-
-/* Slider Styles */
 #slider {
     position: relative;
-    max-width: 800px; /* Adjust the width as needed */
+    max-width: 800px; 
     margin: auto;
 
     overflow: hidden;
@@ -191,9 +183,9 @@ footer {
     opacity: 1;
 }
 @keyframes slide {
-    0% { left: -100%; }   /* Start off-screen to the left */
-    50% { left: 0; }      /* Center in view */
-    100% { left: 100%; }  /* Move off-screen to the right */
+    0% { left: -100%; } 
+    50% { left: 0; }      
+    100% { left: 100%; }  
 }
 
 button#health-assessments-btn {
@@ -202,7 +194,7 @@ button#health-assessments-btn {
     margin-left: 45%;
     height: 50px;
     width: 150px;
-    background-color: #007BFF; /* Change to your desired button color */
+    background-color: #007BFF; 
     color: white;
     border: none;
     border-radius: 5px;
@@ -210,7 +202,7 @@ button#health-assessments-btn {
 }
 
 button#health-assessments-btn:hover {
-    background-color: #0056b3; /* Darker shade on hover */
+    background-color: #0056b3; 
 }
 
 
@@ -225,7 +217,6 @@ button#health-assessments-btn:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 50px;
     transition: transform 0.3s;
-    /* width: 100%; */
     text-align: center;
 }
 
