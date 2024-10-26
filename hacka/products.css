@@ -1,12 +1,12 @@
 .products {
     padding: 40px 20px;
-    background-color: #f6f5f7; /* Match index page */
+    background-color: #f6f5f7;
     text-align: center;
 }
 
 .products h2 {
     font-size: 24px;
-    color: #282829; /* Main text color */
+    color: #282829;
     margin-bottom: 20px;
 }
 
@@ -38,19 +38,19 @@
 
 .product-card p {
     font-size: 14px;
-    color: #676767; /* Subtitle color */
+    color: #676767; 
     margin: 10px 0;
 }
 
 .price {
     font-size: 18px;
-    color: #f01010; /* Price color */
+    color: #f01010; 
     font-weight: bold;
 }
 
 button {
-    background-color: #282829; /* Button background */
-    color: #fff; /* Button text color */
+    background-color: #282829; 
+    color: #fff; 
     border: none;
     border-radius: 5px;
     padding: 10px 20px;
@@ -59,12 +59,12 @@ button {
 }
 
 button:hover {
-    background-color: #676767; /* Hover effect */
+    background-color: #676767; 
 }
 
 #slider {
     position: relative;
-    max-width: 800px; /* Adjust the width as needed */
+    max-width: 800px; 
     margin: auto;
     overflow: hidden;
 }
