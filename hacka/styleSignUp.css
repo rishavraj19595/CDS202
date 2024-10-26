@@ -190,29 +190,29 @@ button:active {
 }
 
 .social-container {
-    display: flex; /* Align items in a row */
-    justify-content: center; /* Center items horizontally */
-    margin: 20px 0; /* Space above and below */
+    display: flex;
+    justify-content: center; 
+    margin: 20px 0; 
 }
 
 .social {
-    display: inline-flex; /* Inline-flex for the anchor */
-    justify-content: center; /* Center contents */
-    align-items: center; /* Center contents */
-    width: 40px; /* Width of the circle */
-    height: 40px; /* Height of the circle */
-    border-radius: 50%; /* Makes it circular */
-    overflow: hidden; /* Hides overflow */
-    margin: 0 10px; /* Space between icons */
-    background-color: #f6f5f7; /* Background color */
-    transition: background-color 0.3s; /* Smooth transition for hover */
+    display: inline-flex; 
+    justify-content: center; 
+    align-items: center; 
+    width: 40px; 
+    height: 40px; 
+    border-radius: 50%; 
+    overflow: hidden; 
+    margin: 0 10px; 
+    background-color: #f6f5f7; 
+    transition: background-color 0.3s; 
 }
 
 .social img {
-    width: 100%; /* Scale image to fit the container */
-    height: auto; /* Maintain aspect ratio */
+    width: 100%; 
+    height: auto; 
 }
 
 .social:hover {
-    background-color: #d1d1d1; /* Change background on hover */
+    background-color: #d1d1d1;
 }
