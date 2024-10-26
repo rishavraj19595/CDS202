@@ -2,24 +2,24 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f6f5f7; /* Light background */
+    background-color: #f6f5f7;
 }
 
 header {
-    background-color: #00A69C; /* Header background */
+    background-color: #00A69C;
     color: #fff;
     padding: 20px;
     text-align: center;
 }
 
 nav a {
-    color: #fff; /* Link color */
+    color: #fff;
     margin: 0 15px;
     text-decoration: none;
 }
 
 nav a:hover {
-    text-decoration: underline; /* Hover effect */
+    text-decoration: underline;
 }
 
 .assessment-form {
@@ -55,8 +55,8 @@ select {
 }
 
 button {
-    background-color: #00A69C; /* Button background */
-    color: #fff; /* Button text color */
+    background-color: #00A69C;
+    color: #fff; 
     border: none;
     border-radius: 5px;
     padding: 10px 20px;
@@ -65,7 +65,7 @@ button {
 }
 
 button:hover {
-    background-color: #676767; /* Hover effect */
+    background-color: #676767;
 }
 
 footer {
