@@ -184,7 +184,6 @@ button:active {
 }
 
 .para{
-    /* text-align: ; */
     padding-left: 50px;
     font-size: 15px;
 }
@@ -193,11 +192,11 @@ button:active {
     width: 24px;
     height: 24px;
     
-        display: inline-block; /* This makes it act like an inline image */
-        width: 24px; /* Set the width of the image */
-        height: 24px; /* Set the height of the image */
-        background-image: url('image-path.jpg'); /* Path to your image */
-        background-size: cover; /* Ensures the image covers the element */
+        display: inline-block; 
+        width: 24px; 
+        height: 24px; 
+        background-image: url('image-path.jpg'); 
+        background-size: cover; 
       
       
 }
