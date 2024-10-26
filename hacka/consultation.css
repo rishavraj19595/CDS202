@@ -1,0 +1,87 @@
+.doctors {
+    padding: 40px 20px;
+    background-color: #f6f5f7; /* Match index page */
+    text-align: center;
+}
+
+.doctors h2 {
+    font-size: 24px;
+    color: #282829; /* Main text color */
+    margin-bottom: 20px;
+}
+
+.doctors-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+    gap: 20px;
+}
+
+.doctors-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+    transition: transform 0.3s;
+}
+
+.doctors-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.doctors-card h3 {
+    font-size: 18px;
+    color: #282829;
+    margin: 10px 0;
+}
+
+.doctors-card p {
+    font-size: 14px;
+    color: #676767; /* Subtitle color */
+    margin: 10px 0;
+}
+
+.Fees {
+    font-size: 18px;
+    color: #f01010; /* Price color */
+    font-weight: bold;
+}
+
+button {
+    background-color: #282829; /* Button background */
+    color: #fff; /* Button text color */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #676767; /* Hover effect */
+}
+
+#slider {
+    position: relative;
+    max-width: 800px; /* Adjust the width as needed */
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider-container {
+    display: flex;
+    transition: transform 0.5s infinite linear;
+    height: 300px;
+    width: 800px;
+}
+
+.slide {
+    min-width: 100%;
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+.slide.fade {
+    opacity: 1;
+}

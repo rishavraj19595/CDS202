@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login and Signup Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-container sign-up-container">
+            <form action="#">
+                <h1>Sign Up</h1>
+                <div class="social-container">
+                    <a href="https://www.facebook.com" target="_blank" class="social"><i class="fab_fa-facebook-f" ><img src="images/fb.png"></i></a>
+                    <a href="google.com" target="_blank" class="social"><i class="fab fa-google"><img src="images/g.png"></i></a>
+                    <a href="linkdin.com" target="_blank" class="social"><i class="fab fa-linkedin-in"><img src="images/l.png"></i></a>
+                </div>
+                <input type="text" placeholder="Username" />
+                <input type="email" placeholder="Email" />
+                <input type="password" placeholder="Password" />
+                <button>Sign Up</button>
+            </form>
+        </div>
+
+        <div class="form-container login-container">
+            <form action="#">
+                <h1>Login</h1>
+                <div class="social-container">
+                    <a href="facebook.com" target="_blank" class="social"><i class="fab fa-facebook-f"><img src="images/fb.png"></i></a>
+                    <a href="google.com" target="_blank" class="social"><i class="fab fa-google"><img src="images/g.png"></i></a>
+                    <a href="linkdin.in" target="_blank" class="social"><i class="fab fa-linkedin-in"><img src="images/l.png"></i></a>
+                </div>
+                <input type="text" placeholder="Username" />
+                <input type="password" placeholder="Password" />
+                <button>Login</button>
+            </form>
+        </div>
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1>Welcome Back!</h1>
+                    <p>Please login with your personal info</p>
+                    <button class="ghost" id="login">Login</button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <h1>Hello, Friend!</h1>
+                    <p class="para">Enter your details and start your journey with us</p>
+                    <button class="ghost" id="signUp">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

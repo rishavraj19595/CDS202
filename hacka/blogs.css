@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #00A69C; /* Same green color as index page */
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white; /* White text for links */
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+h1 {
+    margin: 0; /* Remove margin for header title */
+}
+
+h2 {
+    color: #00A69C; /* Green color for section heading */
+}
+
+section {
+    padding: 20px;
+}
+
+.blog-post {
+    margin-bottom: 20px; /* Space between blog posts */
+    padding: 15px;
+    border: 1px solid #ddd; /* Light border around blog posts */
+    border-radius: 5px; /* Rounded corners for blog posts */
+    transition: transform 0.3s; /* Smooth transition for hover effect */
+    background-color: #ecf8e7; /* Light green background for blog posts */
+}
+
+.blog-post:hover {
+    transform: scale(1.02); /* Slightly enlarge on hover */
+}
+
+.blog-post h3 {
+    margin-top: 0; /* Remove margin on top of h3 */
+    color: #1e7048; /* Darker green color for blog post title */
+}
+
+.read-more {
+    display: inline-block; /* Block for the link */
+    margin-top: 10px; /* Space above the link */
+    color: #00A69C; /* Green color for "Read More" link */
+    text-decoration: none; /* No underline */
+    border: 1px solid #00A69C; /* Border for button */
+    padding: 8px 12px; /* Padding for button */
+    border-radius: 5px; /* Rounded corners for button */
+    transition: background-color 0.3s; /* Smooth transition for background */
+}
+
+.read-more:hover {
+    background-color: #00A69C; /* Change background on hover */
+    color: white; /* Change text color on hover */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #00A69C; /* Green footer background */
+    color: white; /* White text for footer */
+    position: relative;
+    bottom: 0;
+    width: 100%; /* Full width footer */
+    margin-top: 20px; /* Space above footer */
+}
+
+.blog-content {
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center items vertically */
+    margin-bottom: 10px; /* Space between content and 'Read More' link */
+}
+
+.imgblog {
+    margin-right: 10px; /* Space between image and text */
+}
+
+.text {
+    flex: 1; /* Allow text to take the remaining space */
+}
